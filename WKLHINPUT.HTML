@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAKALAH INPUT</title>
+</head>
+<body>
+<h1>Wakalah Input</h1>
+
+<form id="wakalahinput">
+<p>
+    <label for="jenis">Jenis Permohonan</label>
+    <select name="jenis" id="jenis">
+        <option value="staf">STAF</option>
+        <option value="awam">AWAM</option>
+        <option value="institusi">INSTITUSI</option>
+    </select>
+</p>
+<p>
+    <label for="nama">NAMA PEMOHON :</label>
+    <input type="text" name="nama" id="nama" required> 
+
+    <label for="nric">NO NRIC :</label>
+    <input type="text" name="nric" id="nric" required>
+</p>
+
+<p>
+    <label for="alamat">ALAMAT :</label>
+    <textarea name="alamat" id="alamat" required></textarea>
+</p>
+<p>
+    <label for="taman">TAMAN :</label>
+    <input type="text" name="taman" id="taman">
+
+    <label for="bandar">BANDAR :</label>
+    <input type="text" name="bandar" id="bandar">
+
+    <label for="daerah">DAERAH :</label>
+    <input type="text" name="daerah" id="daerah">
+
+    <label for="postcode">POSKOD :</label>
+    <input type="text" name="postcode" id="postcode">
+</p>
+
+<P>
+    <label for="negeri">NEGERI :</label>
+    <input type="text" name="negeri" id="negeri">
+</P>
+
+<p>
+    <label for="">Jantina</label>
+
+    <label for="lelaki">
+        <input type="radio" name="jantina" id="lelaki" value="lelaki">Lelaki
+    </label>
+    <label for="perempuan">
+        <input type="radio" name="jantina" id="perempuan" value="perempuan">Perempuan
+    </label>
+</p>
+<p>
+    <label for="">Pengalaman</label>
+    <label for="html">
+        <input type="checkbox" name="pengalaman []" id="html" value="html">HTML
+    </label>
+    <label for="css">
+        <input type="checkbox" name="pengalaman []" id="css" value="css">CSS
+    </label>
+    <label for="php">
+        <input type="checkbox" name="pengalaman []" id="php" value="php">PHP
+    </label>
+</p>
+<p>
+  <!--  <button type="submit">DAFTAR</button>  -->
+    <button type="reset">RESET</button>
+    <button type="submit" id="csv">SAVE CSV</button>
+</p>
+
+</form>
+<script src="script.js"></script>
+    
+</body>
+</html>
