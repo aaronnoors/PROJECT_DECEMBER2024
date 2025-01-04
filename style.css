@@ -1,0 +1,52 @@
+* {
+  /* margin: 0px;
+  padding: 0px; */
+  box-sizing: border-box;
+}
+
+body img {
+  padding-left: 100px;
+  width: 1350px;
+  height: fit-content;
+  border-radius: 20px;
+}
+
+form {
+  width: 350px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid grey;
+  position: absolute;
+  top: 430px;
+  left: 950px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+form label {
+  width: 10ch;
+}
+
+form input {
+  border-radius: 5px;
+  width: 200px;
+}
+
+#btnlogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  border-radius: 10px;
+}

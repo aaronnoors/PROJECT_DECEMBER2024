@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#dropdown {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: centre;
+  gap: 16px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  /* width: 700px; */
+}
+
+#menu {
+  min-width: 300px;
+  height: 350px;
+  border: 1px solid blue;
+  justify-content: center;
+  align-content: end;
+  text-align: center;
+}
